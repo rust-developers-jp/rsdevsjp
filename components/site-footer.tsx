@@ -10,8 +10,8 @@ const footerLinks = {
     },
   ],
   Projects: [
-    { label: "rsdocsjp", href: "#" },
-    { label: "rustrefjp", href: "#" },
+    { label: "rsdocsjp", href: "http://rsdocsjp.org/" },
+    { label: "rustrefjp", href: "https://ref.rustlang.jp/" },
   ],
   Social: [
     { label: "Github", href: "https://github.com/Rust-Developers-JP" },
