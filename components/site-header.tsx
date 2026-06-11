@@ -67,13 +67,13 @@ export function Header() {
                     <span className="sr-only">メニュー</span>
                     <div className="flex h-4 w-4 flex-col justify-between">
                         <span
-                            className={`block h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "translate-y-[7px] rotate-45" : ""}`}
+                            className={`block h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "-translate-y-1.75 rotate-45" : ""}`}
                         />
                         <span
                             className={`block h-0.5 w-4 rounded-full bg-current transition-opacity ${isMenuOpen ? "opacity-0" : "opacity-100"}`}
                         />
                         <span
-                            className={`block h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "-translate-y-[7px] -rotate-45" : ""}`}
+                            className={`block h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "-translate-y-1.75 -rotate-45" : ""}`}
                         />
                     </div>
                 </button>
