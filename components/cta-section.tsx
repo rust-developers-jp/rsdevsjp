@@ -1,5 +1,4 @@
-import Link from "next/link"
-import { SiDiscord } from "@icons-pack/react-simple-icons"
+import { JoinButton } from "@/components/ui/join-button"
 
 export function CtaSection() {
     return (
@@ -17,13 +16,7 @@ export function CtaSection() {
                     </p>
                 </div>
                 <div className="flex w-full flex-row items-center justify-center">
-                    <Link
-                        href="/join"
-                        className="inline-flex w-full items-center justify-center rounded bg-[#5662f6] px-6 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90 sm:w-auto"
-                    >
-                        <SiDiscord size={20} className="mr-2" />
-                        Discordに参加
-                    </Link>
+                    <JoinButton />
                 </div>
             </div>
         </section>
