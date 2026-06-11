@@ -2,15 +2,15 @@ import Link from "next/link"
 
 const footerLinks = {
   Navigation: [
-    { label: "About", href: "#about" },
-    { label: "Activity", href: "#activity" },
+    { label: "About", href: "/#about" },
+    { label: "Activity", href: "/#activity" },
     {
       label: "Contact",
       href: "https://docs.google.com/forms/d/e/1FAIpQLSc-Cx_HM_bLwgCpH6cfoYjO9rr5-BI1Wu6aLE0_DILbsxGQWQ/viewform",
     },
   ],
   Projects: [
-    { label: "rsdocsjp", href: "http://rsdocsjp.org/" },
+    { label: "Community", href: "/join" },
     { label: "rustrefjp", href: "https://ref.rustlang.jp/" },
   ],
   Social: [
@@ -20,7 +20,7 @@ const footerLinks = {
     { label: "YouTube", href: "https://www.youtube.com/@rust_developers_jp" },
   ],
   More: [
-    { label: "規約", href: "/tos" },
+    { label: "利用規約", href: "/tos" },
     { label: "プライバシーポリシー", href: "/privacy" },
   ],
 }
