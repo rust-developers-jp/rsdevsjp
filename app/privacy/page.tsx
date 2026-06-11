@@ -69,7 +69,7 @@ export default function PrivacyPage() {
                 Rust Developers JP における個人情報および利用者情報の取り扱いについて定めています。
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                最終更新日: 2026年6月9日
+                最終更新日: 2026年2月28日
               </p>
             </div>
 
