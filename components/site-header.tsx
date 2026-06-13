@@ -4,6 +4,9 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 
+import { urlPrefix } from "../next.config"
+const BASE_PATH = urlPrefix
+
 const navLinks = [
     { label: "About", href: "/#about" },
     { label: "Activity", href: "/#activity" },
@@ -23,9 +26,9 @@ export function Header() {
     return (
         <header>
             <div className="mx-auto flex min-h-16 max-w-5xl items-center justify-between gap-4 px-4 sm:px-6">
-                <Link href="/" className="flex shrink-0 items-center gap-3">
+                <Link href={"/"} className="flex shrink-0 items-center gap-3">
                     <Image
-                        src="/assets/logo.webp"
+                        src={BASE_PATH + "/assets/logo.webp"}
                         alt="Rust Developers JP Logo"
                         width={463}
                         height={307}
