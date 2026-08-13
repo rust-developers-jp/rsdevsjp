@@ -47,7 +47,7 @@ const sections = [
   {
     title: "6. お問い合わせ",
     body: [
-      "本ポリシーに関するお問い合わせは、管理人KaiTomotake（rustacean@mail.rustlang.jp）までご連絡ください。",
+      "本ポリシーに関するお問い合わせは、管理人KaiTomotake（rustacean@mail.rust-lang.jp）までご連絡ください。",
     ],
   },
 ];
