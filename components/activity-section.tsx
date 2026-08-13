@@ -30,7 +30,7 @@ export function ActivitySection() {
                     {useCases.map((useCase) => (
                         <div
                             key={useCase.title}
-                            className="group block rounded-lg border border-border bg-background p-5 text-left sm:p-6"
+                            className="group block rounded border border-border bg-background p-5 text-left sm:p-6"
                         >
                             <h3 className="mb-3 font-sans font-bold text-foreground transition-colors group-hover:text-primary">
                                 {useCase.title}
