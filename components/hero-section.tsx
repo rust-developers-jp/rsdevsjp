@@ -26,7 +26,7 @@ export function HeroSection() {
                     </div>
                 </div>
 
-                <iframe title="Discord widget" loading="lazy" className="hidden xl:block" src="https://discord.com/widget?id=1185947730363826236&theme=dark" width="350" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe title="Discord widget" loading="lazy" className="hidden xl:block" src="https://discord.com/widget?id=1447145150714482871&theme=dark" width="350" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
         </section>
     )
