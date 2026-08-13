@@ -12,7 +12,11 @@ export function AboutSection() {
                         <Highlighter action="underline" color="#f66a00">
                             <strong>Rust Developers JP</strong>
                         </Highlighter>
-                        は、Rust言語の普及と振興を目的とした日本語コミュニティです。
+                        は、Rust言語の普及と振興を目的とした
+                        <Highlighter action="underline" color="#f66a00">
+                            <strong>非公式</strong>
+                        </Highlighter>
+                        の日本コミュニティです。
                     </p>
                     <p>
                         私たちは、より多くの方にRustの魅力と可能性を知っていただくこと、そして日本国内におけるRustエコシステムの発展に寄与することを目指して活動しております。

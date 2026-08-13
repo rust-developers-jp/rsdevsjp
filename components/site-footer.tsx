@@ -20,8 +20,8 @@ const footerLinks = {
     { label: "YouTube", href: "https://www.youtube.com/@rust_developers_jp" },
   ],
   More: [
-    { label: "利用規約", href: "/tos" },
-    { label: "プライバシーポリシー", href: "/privacy" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Service", href: "/tos" },
   ],
 }
 
@@ -33,7 +33,7 @@ export function Footer() {
   return (
     <footer className="border-t" role="contentinfo">
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-14">
-        <div className="mb-12 grid gap-8 sm:mb-14 sm:grid-cols-2 sm:gap-10 lg:grid-cols-4">
+        <div className="mb-12 grid gap-8 sm:mb-14 grid-cols-2 sm:gap-10 lg:grid-cols-4">
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
               <h3 className="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-muted-foreground">
@@ -58,10 +58,13 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-4 border-t border-dashed pt-8 sm:flex-row">
+        <div className="flex flex-col items-center justify-center gap-1 border-t border-dashed pt-8">
           <p className="mx-auto text-center text-xs leading-relaxed text-muted-foreground">
-            © 2026 Rust Developers JP. All Rights Reserved. <br />
-            本サイトのコンテンツはCC BY 4.0ライセンスの下で提供されています。
+            © 2026 Rust Developers JP. All Rights Reserved.
+          </p>
+          <p className="mx-auto text-center text-[11px] text-muted-foreground/80">
+            本サイトのコンテンツはCC BY 4.0ライセンスの下で提供されています。<br />
+            「Rust Developers JP」はRust Teamとは無関係の非公式コミュニティです。
           </p>
         </div>
       </div>
