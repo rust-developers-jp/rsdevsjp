@@ -20,7 +20,7 @@ const alfaSlabOne = Alfa_Slab_One({
   weight: "400",
 });
 
-const url = "https://rustlang.jp";
+const url = "https://rust-lang.jp";
 const icon = "/favicon.ico";
 const ogpIcon = "/ogp.webp";
 const siteName = "Rust Developers JP";
