@@ -64,13 +64,13 @@ export function Header() {
                     className="inline-flex items-center justify-center rounded-md border border-border p-2 text-foreground transition-colors hover:bg-muted md:hidden"
                     aria-expanded={isMenuOpen}
                     aria-controls="mobile-navigation"
-                    aria-label={isMenuOpen ? "メニューを閉じる" : "メニューを開く"}
+                    aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
                     onClick={() => setIsMenuOpen((current) => !current)}
                 >
-                    <span className="sr-only">メニュー</span>
+                    <span className="sr-only">Menu</span>
                     <div className="flex h-4 w-4 flex-col justify-between">
                         <span
-                            className={`block h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "-translate-y-1.75 rotate-45" : ""}`}
+                            className={`block h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "translate-y-1.75 rotate-45" : ""}`}
                         />
                         <span
                             className={`block h-0.5 w-4 rounded-full bg-current transition-opacity ${isMenuOpen ? "opacity-0" : "opacity-100"}`}

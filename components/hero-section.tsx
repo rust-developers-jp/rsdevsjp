@@ -6,14 +6,11 @@ export function HeroSection() {
             className="relative overflow-hidden pb-16 pt-10 sm:pb-20 sm:pt-12 md:pb-28 md:pt-14"
             aria-labelledby="hero-heading"
         >
-            <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
-                <div className="max-w-2xl">
-                    <p className="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-primary">
-                        Community for Rust Developers in Japan
-                    </p>
+            <div className="flex items-center justify-between relative mx-auto max-w-5xl px-4 sm:px-6">
+                <div className="w-full max-w-xl">
                     <h1
                         id="hero-heading"
-                        className="mb-6 text-4xl font-bold leading-tight text-balance font-heading sm:text-5xl md:text-7xl"
+                        className="mb-6 text-5xl font-bold leading-tight tracking-wide text-balance font-heading md:text-7xl"
                     >
                         Rust
                         <br />
@@ -28,6 +25,8 @@ export function HeroSection() {
                         <JoinButton />
                     </div>
                 </div>
+
+                <iframe title="Discord widget" loading="lazy" className="hidden xl:block" src="https://discord.com/widget?id=1185947730363826236&theme=dark" width="350" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
         </section>
     )
