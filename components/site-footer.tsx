@@ -11,7 +11,7 @@ const footerLinks = {
   ],
   Projects: [
     { label: "Community", href: "/join" },
-    { label: "rustrefjp", href: "https://ref.rustlang.jp/" },
+    { label: "connpass", href: "https://rustjp.connpass.com/" },
   ],
   Social: [
     { label: "Github", href: "https://github.com/Rust-Developers-JP" },
