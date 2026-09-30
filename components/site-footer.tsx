@@ -6,7 +6,7 @@ const footerLinks = {
     { label: "Activity", href: "/#activity" },
     {
       label: "Contact",
-      href: "https://docs.google.com/forms/d/e/1FAIpQLSc-Cx_HM_bLwgCpH6cfoYjO9rr5-BI1Wu6aLE0_DILbsxGQWQ/viewform",
+      href: "mailto:contact@mail.rust-lang.jp",
     },
   ],
   Projects: [
